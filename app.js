@@ -81,6 +81,7 @@ function nextPlayer(){
     //document.querySelector('.player-1-panel').classList.add('active');
 
     document.querySelector('.dice').style.display = 'none';
+    document.querySelector('.diceTwo').style.display = 'none';
 }
 
 document.querySelector('.btn-new').addEventListener('click', init);
